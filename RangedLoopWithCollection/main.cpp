@@ -1,14 +1,9 @@
-//
-//  main.cpp
-//  RangedLoopWithCollection
-//
-//  Created by Matt Ahmad on 2022-11-10.
-//
-
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    for(int n: {1, 2, 3, 4, 5}){
+        std::cout << n << " ";
+    }
     return 0;
 }
